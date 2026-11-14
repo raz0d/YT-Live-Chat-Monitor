@@ -235,4 +235,4 @@ The service starts after a reboot and restarts after an unexpected process failu
 - `.env.example` — safe configuration template.
 - `.gitignore` — excludes local secrets and generated files.
 
-This project is released under the MIT License. Before publishing, replace `[Your Name]` in `LICENSE` with the author name you want shown. The MIT License allows free use, modification, and redistribution as long as the copyright and license notice are retained.
+This project is released under the MIT License. The MIT License allows free use, modification, and redistribution as long as the copyright and license notice are retained.
