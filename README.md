@@ -139,13 +139,11 @@ A static IP is optional. It keeps the instance address stable after a restart; A
 
 In Lightsail, select your instance and choose **Connect using SSH**. This opens a browser-based terminal. You can also connect from your own SSH client; for Windows, the Lightsail SSH page shows how to use the regional `.pem` key. Keep that key outside the repository. See AWS’s [SSH connection guide](https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-ssh-using-terminal.html).
 
-Once connected, install Git and Python, then clone your GitHub repository. Replace `YOUR_GITHUB_USERNAME` if you use the example command:
-
 ```bash
 sudo apt update
 sudo apt install -y git python3 python3-venv python3-pip
 cd ~
-git clone https://github.com/YOUR_GITHUB_USERNAME/yt-live-chat-monitor.git
+git clone https://github.com/raz0d/YT-Live-Chat-Monitor.git
 cd yt-live-chat-monitor
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
